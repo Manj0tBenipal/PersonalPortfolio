@@ -1,0 +1,112 @@
+/* logo */
+#logo img {
+    width: 180px;
+}
+#navbar{
+    line-height: 1.2rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#navbar::before{
+    height: 100%;
+}
+#navigation ul li{
+    padding-top: 0px;
+}
+#navigation ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 2px 5px;
+    padding: 2px 5px;
+}
+#navigation ul {
+    list-style: none;
+    display: flex;
+    margin: 10px 3px;
+}
+
+/* HOME-SECTION */
+#home-section{
+    height: 260px;
+}
+#home-section::before{
+    height: 380px;
+}
+#home{
+    padding: 5px 0px;
+}
+
+/* SERVICES-SECTION */
+#services-section h1{
+    margin-bottom: 0px;
+}
+
+#services-section::before{
+    height: 920px;
+}
+#services{
+    flex-wrap: wrap;
+    padding: 3px 45px;
+}
+
+/* ABOUT-SECTION */
+#about-section {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin: 10px 0px;
+    padding: 20px 0px;
+    height: 267px;
+}
+#about-section::before {
+    height: 300px;
+    width: 100%;
+    margin: 0px 0px;
+}
+#about p {
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+#about{
+    flex-wrap: wrap;
+}
+
+
+/* clients-section */
+#clients-section {
+    display: flex;
+    margin: 30px 0px;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    height: 230px;
+}
+.client-item a img {
+    width: 64px;
+}
+
+
+/* CONTACT-SECTION */
+#contact-section::before{
+    height: 680px;
+}
+#contact{
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#form input, #form textarea {
+    margin: 2px 1px;
+    padding: 2px 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 390px;
+}
+.address-details, .query-item{
+    font-size: 0.9rem;
+    color:brown;
+    font-weight: bold;
+    margin: 2px 2px;
+    padding: 2px 2px;
+}

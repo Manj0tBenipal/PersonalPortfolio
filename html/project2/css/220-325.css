@@ -1,0 +1,157 @@
+html{
+    font-size: 0.7rem;
+}
+/* logo */
+#logo img {
+    width: 130px;
+}
+#navbar{
+    line-height: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#navbar::before{
+    height: 100%;
+}
+#navigation ul li{
+    padding-top: 0px;
+    font-size: 1rem;
+}
+#navigation ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 2px 2px;
+    padding: 2px 4px;
+  }
+#navigation ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 3px;
+  }
+
+/* HOME-SECTION */
+#home-section{
+    height: 150px;
+    margin-bottom: 35px;
+}
+#home-section::before{
+    height: 285px;
+}
+#home{
+    padding: 5px 0px;
+}
+#home-section h1, #home p {
+    margin: 2px 5px;
+    padding: 3px 5px;
+  }
+
+/* SERVICES-SECTION */
+#services-section{
+    height: 760px;
+}
+#services-section h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#services-section::before{
+    height: 770px;
+}
+ #services {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+    overflow: scroll;
+  }
+  #services .box img {
+    width: 175px;
+  }
+/* ABOUT-SECTION */
+#about-section {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin: 10px 0px;
+    padding:10px 0px;
+    height: 320px;
+    width: 100%;
+   
+}
+#about-section::before {
+    height: 340px;
+    width: 100%;
+    margin: 0px 0px;
+}
+#about p {
+    margin: 5px 3px;
+    padding: 5px 3px;
+}
+#about{
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+
+/* clients-section */
+#clients-section {
+    display: flex;
+    margin: 30px 0px;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    height: 195px;
+}
+#clients-section::before{
+    height: 190px;
+}
+#clients{
+    flex-wrap: wrap;
+    overflow: scroll;
+    margin: 4px 4px;
+}
+.client-item {
+    margin: 4px 5px;
+    padding: 8px 8px;
+}
+.client-item a img {
+    width: 45px;
+    
+  }
+
+
+/* CONTACT-SECTION */
+#contact-section::before{
+    height: 525px;
+}
+#contact{
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#form input, #form textarea {
+    margin: 2px 1px;
+    padding: 2px 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 170px;
+    font-size: 0.8rem;
+}
+.address-details, .query-item{
+    font-size: 0.8rem;
+    color:brown;
+    font-weight: bold;
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+.heading-p{
+    font-size: 1.3rem;
+}
+.haeding-s{
+    font-size: 0.9rem;
+}

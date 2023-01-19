@@ -1,0 +1,146 @@
+html{
+    font-size: 0.8rem;
+}
+.body-container{
+    padding-top: 40px;
+}
+/* logo */
+#logo img {
+    width: 40%;
+}
+#navbar{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar::before{
+    height: 100%;
+}
+#navbar button{
+    border: none;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+#navigation{
+    display:none;
+}
+#navigation ul li{
+    padding-top: 0px;
+    font-size: 1.1rem;
+}
+#navigation ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 2px 5px;
+    padding: 2px 5px;
+}
+#navigation ul {
+    list-style: none;
+    display: flex;
+    margin: 10px 3px;
+}
+
+/* HOME-SECTION */
+#home-section{
+    height: 180px;
+}
+#home-section::before{
+    height: 330px;
+}
+#home{
+    padding: 5px 0px;
+}
+
+/* SERVICES-SECTION */
+#services-section h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#services-section::before{
+    height: 800px;
+}
+ #services {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px 25px;
+    overflow: scroll;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px;
+  }
+  #services .box img {
+    width: 190px;
+  }
+/* ABOUT-SECTION */
+#about-section {
+   
+    /* border: 2px solid red; */
+    margin: 0px 0px;
+    padding:10px 0px;
+
+    width: 100%;
+}
+  
+#about-section::before {
+    height: 350px;
+    width: 100%;
+    margin: 0px 0px;
+}
+
+#about p {
+    margin: 5px 3px;
+    padding: 5px 3px;
+}
+
+
+
+/* clients-section */
+#clients-section {
+    display: flex;
+    margin: 0px 0px;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    height: 155px;
+    overflow: scroll;
+}
+#clients-section::before{
+    height: 160px;
+}
+.client-item a img {
+    width: 45px;
+  }
+
+
+/* CONTACT-SECTION */
+#contact-section::before{
+    height: 615px;
+}
+#contact{
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#form input, #form textarea {
+    margin: 2px 1px;
+    padding: 2px 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 270px;
+}
+.address-details, .query-item{
+    font-size: 0.8rem;
+    color:brown;
+    font-weight: bold;
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+.heading-p{
+    font-size: 1.4rem;
+}
+.haeding-s{
+    font-size: 1rem;
+}

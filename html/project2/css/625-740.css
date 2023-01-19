@@ -1,0 +1,54 @@
+html{
+    font-family: 'Ubuntu', sans-serif;
+   font-size: 0.8rem;
+    scroll-behavior: smooth;
+}
+
+
+#navigation ul li a{
+    font-size: 1rem;
+    margin: 2px 6px;
+    padding: 2px 3px;
+}
+#navbar::before {
+    height: 97%;
+}
+/* HOME-SECTION */
+#home-section{
+    height: 280px;
+}
+#home-section::before{
+    height: 410px;
+}
+
+
+
+/* SERVICES-SECTION */
+#services{
+    margin: 10px 5px;
+    padding: 2px 2px;
+}
+#services-section:before{
+    height: 320px;
+}
+#services .box img{
+    width: 150px;
+}
+#services .box {
+    margin: 5px 3px;
+    padding: 4px 2px;
+    box-shadow: 1.5px 1.5px 8px 1px black;
+}
+
+
+
+/* CLIENTS-SECTION */
+#clients-section::before{
+    height: 160px;
+}
+#cients-section h1{
+    padding-top: 5px;
+}
+.client-item a img{
+    width: 60px;
+}
